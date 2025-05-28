@@ -26,3 +26,8 @@ This repository contains our solution to **Assignment 1** of the **TML25** cours
    ```bash
    git clone https://github.com/YourUsername/TML25_A1_3.git
    cd TML25_A1_3
+
+2. Load the model:
+    ```bash
+import joblib
+model = joblib.load("best_attack_model_catboost.pkl")
