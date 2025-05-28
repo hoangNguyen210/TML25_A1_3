@@ -29,5 +29,5 @@ This repository contains our solution to **Assignment 1** of the **TML25** cours
 
 2. Load the model:
     ```bash
-import joblib
-model = joblib.load("best_attack_model_catboost.pkl")
+   import joblib
+   model = joblib.load("best_attack_model_catboost.pkl")
