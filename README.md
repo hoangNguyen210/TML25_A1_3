@@ -13,6 +13,7 @@ This repository contains our solution to **Assignment 1** of the **TML25** cours
 | [`TML_Assignment_1.ipynb`](TML_Assignment_1.ipynb) | Main Jupyter notebook containing data loading, preprocessing, model training, and evaluation. |
 | [`best_attack_model_catboost.pkl`](best_attack_model_catboost.pkl) | Saved CatBoost model used for adversarial attack generation or prediction. |
 | [`test.csv`](test.csv)                     | Provided test data used for generating predictions or testing the model.   |
+| [`TML_report.pdf`](TML_report.pdf)                     | Report file.   |
 
 ---
 
