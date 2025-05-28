@@ -20,6 +20,10 @@ This repository contains our solution to **Assignment 1** of the **TML25** cours
 
 - We experimented with several models, including XGBOOST, CatBoost, AdaBoost, and MLP, and found that **CatBoost** performed the best in terms of robustness and predictive accuracy.
 
+The plot below compares the ROC-AUC scores of different models we experimented with:
+
+![ROC AUC Comparison](roc_auc_comparison.png)
+
 ## 🚀 How to Run
 
 1. Clone this repository:
@@ -31,3 +35,4 @@ This repository contains our solution to **Assignment 1** of the **TML25** cours
     ```bash
    import joblib
    model = joblib.load("best_attack_model_catboost.pkl")
+
